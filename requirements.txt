@@ -1,0 +1,27 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-community>=0.0.10
+chromadb>=0.4.18
+sentence-transformers>=2.2.2
+pypdf>=3.17.1
+python-dotenv>=0.19.0
+transformers>=4.36.2
+tqdm>=4.66.1
+
+# Build dependencies
+setuptools>=68.0.0
+wheel>=0.40.0
+scikit-build>=0.17.6
+cmake>=3.27.0
+ninja>=1.11.0
+
+# GPU and CUDA support
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch>=2.2.0
+torchvision>=0.17.0
+
+# LLM dependencies
+llama-cpp-python>=0.2.23
+
+# vLLM support
+vllm>=0.2.7
